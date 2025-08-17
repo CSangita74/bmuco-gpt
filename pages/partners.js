@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Container, SectionTitle, useInViewMotion } from '../components/Common';
-import { Handshake } from 'lucide-react';
+import { Users2 } from 'lucide-react';
 import DATA from '../lib/data';
 
 export default function Partners() {
@@ -20,7 +20,7 @@ export default function Partners() {
                 {...useInViewMotion()}
                 className="flex items-center gap-3 rounded-xl border border-zinc-200/70 bg-zinc-50 p-4 dark:border-zinc-800/70 dark:bg-zinc-900"
               >
-                <Handshake className="shrink-0" />
+                <Users2 className="shrink-0" />
                 <p className="text-sm text-zinc-800 dark:text-zinc-200">{p}</p>
               </motion.div>
             ))}
